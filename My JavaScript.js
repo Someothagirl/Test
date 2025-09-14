@@ -110,17 +110,29 @@ console.log("Account with the highest balance", userAccount1.name);
 
 console.log("Account with the lowest balance", userAccount4.name);
 
-/* Status
+ Status
 if (account.status > 0 → "Active") {
   console.log("Account active");
 } else {
   console.log("Account overdrawn");
 } else if (balance == 0 → "Empty") {
   console.log("Account empty");
-} */
+} 
 
 // Print
 console.log("Name:", userAccount1.name, "Balance:", userAccount1.balance, "Currency:", userAccount1.currency, "Type:", userAccount1.type, "Status:", userAccount1.status);
 console.log("Name:", userAccount2.name, "Balance:", userAccount2.balance, "Currency:", userAccount2.currency, "Type:", userAccount2.type, "Status:", userAccount2.status);
 console.log("Name:", userAccount3.name, "Balance:", userAccount3.balance, "Currency:", userAccount3.currency, "Type:", userAccount3.type, "Status:", userAccount3.status);
 console.log("Name:", userAccount4.name, "Balance:", userAccount4.balance, "Currency:", userAccount4.currency, "Type:", userAccount4.type, "Status:", userAccount4.status);
+
+
+
+
+// 11-09 classwork
+const instructions = alert("Pick a basket of 3")
+const name = prompt("Whats your basket?")
+function checkBasket(Basket1, Basket2, Basket3) {
+if (Basket1 == true && Basket2 == false && Basket3 == false){
+  return Basket1
+}
+}
